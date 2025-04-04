@@ -38,6 +38,13 @@
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
 
+    /* Border Styling */
+    .card {
+      border: 2px solid #64ffda;
+      /* Add a light border */
+      border-radius: 15px;
+    }
+
     /* Gradient Background */
     .gradient-bg {
       background: linear-gradient(135deg, #6e7dff, #34d399);
@@ -118,16 +125,61 @@
     </div>
   </section>
 
-  <!-- Research Papers Section -->
+  <!-- Certifications Section -->
   <section class="max-w-4xl mx-auto px-6 mt-16">
-    <h2 class="text-4xl font-bold text-center mb-8 text-accent fadeIn">Research Papers</h2>
-    <ul class="list-disc list-inside">
-      <li><a href="#" class="text-accent hover:underline">Advanced Data Science Techniques in Predictive Analytics</a>
-      </li>
-      <li><a href="#" class="text-accent hover:underline">AI-driven Test Automation Strategies</a></li>
-      <li><a href="#" class="text-accent hover:underline">Big Data Processing and its Impact on Software Testing</a>
-      </li>
+    <h2 class="text-4xl font-bold text-center mb-8 text-accent fadeIn">Certifications</h2>
+    <ul class="list-disc list-inside text-lg">
+      <li><a href="#" class="text-accent hover:underline">ISTQB Certified Tester</a></li>
+      <li><a href="#" class="text-accent hover:underline">AWS Certified Cloud Practitioner</a></li>
+      <li><a href="#" class="text-accent hover:underline">Google Data Analytics Professional Certificate</a></li>
     </ul>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="max-w-7xl mx-auto px-6 mt-16 bg-light-blue">
+    <h2 class="text-4xl font-bold text-center mb-8 text-accent fadeIn">Skills</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+      <div class="text-center">
+        <h3 class="text-xl font-semibold text-accent">JavaScript</h3>
+        <p class="mt-2 text-soft-gray">Full-stack development and web apps</p>
+      </div>
+      <div class="text-center">
+        <h3 class="text-xl font-semibold text-accent">React</h3>
+        <p class="mt-2 text-soft-gray">UI development and modern JS frameworks</p>
+      </div>
+      <div class="text-center">
+        <h3 class="text-xl font-semibold text-accent">Python</h3>
+        <p class="mt-2 text-soft-gray">Data science and machine learning</p>
+      </div>
+      <div class="text-center">
+        <h3 class="text-xl font-semibold text-accent">API Testing</h3>
+        <p class="mt-2 text-soft-gray">Automation with Postman and RestAssured</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section class="max-w-7xl mx-auto px-6 mt-16">
+    <h2 class="text-4xl font-bold text-center mb-8 text-accent fadeIn">Blog</h2>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+      <div class="bg-light-blue p-8 rounded-xl shadow-lg card fadeIn">
+        <h3 class="text-2xl font-semibold text-accent">How to Build a Scalable API</h3>
+        <p class="mt-2 text-soft-gray">A step-by-step guide on building scalable APIs with Node.js and Express.</p>
+        <a href="#" class="btn mt-4 inline-block">Read Blog</a>
+      </div>
+
+      <div class="bg-light-blue p-8 rounded-xl shadow-lg card fadeIn">
+        <h3 class="text-2xl font-semibold text-accent">Best Practices for Writing Tests</h3>
+        <p class="mt-2 text-soft-gray">How to write clean and maintainable tests in your project.</p>
+        <a href="#" class="btn mt-4 inline-block">Read Blog</a>
+      </div>
+
+      <div class="bg-light-blue p-8 rounded-xl shadow-lg card fadeIn">
+        <h3 class="text-2xl font-semibold text-accent">Data Science for Beginners</h3>
+        <p class="mt-2 text-soft-gray">Understanding basic data science concepts and starting your first project.</p>
+        <a href="#" class="btn mt-4 inline-block">Read Blog</a>
+      </div>
+    </div>
   </section>
 
   <!-- Footer Section -->
